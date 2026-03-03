@@ -1,0 +1,120 @@
+/*margem das barras de todo o site*/
+*{
+    margin:0;
+    padding:0;
+}
+/*corpo do site*/
+body{
+    background-color: rgb(37, 37, 37);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #dddddd
+}
+/*Logo*/
+header{
+    background-color: #000000;
+    padding: 20px;
+    color: #f4f4f4;
+    
+    
+}
+/*texto do Logo*/
+header h1{
+    text-align: left;
+    color: #920000;
+    text-align: center;
+}
+
+
+/*Barra de navegação*/
+nav ul{
+    background-color: #920000;
+    display:flex;
+    justify-content: left;
+    padding: 10px;
+}
+/*links da barra de navegação*/
+nav ul li a{
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+/*nome dos links*/
+nav ul li{
+    list-style: none;
+}
+
+/*barra de navegação com o mouse em cima*/
+nav ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+/*conteudo do site*/
+
+main{
+    max-width: 1200px;
+    margin:10px auto;
+    background-color: #3b3b3b;
+}
+
+img{
+    max-width: 100%;
+    padding-left: 200px;
+}
+
+main article h2{
+    padding: 60px;
+}
+
+.recuo{
+    text-indent:15px
+    margin: 20px;
+}
+
+main article p {
+    text-indent: 15px;
+    margin: 20px
+}
+
+main article a {
+    color: #cccccc;
+}
+
+main article a:hover{
+    color:#337438 ;
+}
+
+.segunda img{
+      width: 100%;
+  max-width: 700px; /* mesmo tamanho para todas */
+  height: auto;
+  display: block;
+  margin: 10px 10px;
+
+}
+
+.segunda{
+    margin: 20px
+}
+
+
+.wolve{
+    color: #cccccc;
+}
+
+.wolve:hover{
+    color: #337438;
+}
+
+footer{
+    background-color: #920000;
+    padding: 15px 15px
+
+}
+
+.linkdosite{
+    margin: 20px
+}
+
+
+    
